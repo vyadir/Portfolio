@@ -55,7 +55,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:yadir.sve@gmailcom">yadir.sve@gmailcom</a>
+                  <a href="mailto:yadir.sve@gmailcom">yadir.sve@gmail.com</a>
                 </li>
                 <li>
                   <span className="fw-600 me-2">Age:</span>27
@@ -99,22 +99,6 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </p>
               </div>
             </div>
-
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>650</span>+
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
-                </p>
-              </div>
-            </div>
           </div>
         </div>
         {/* projects rewards counting end */}
@@ -122,5 +106,4 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
     </section>
   );
 };
-
 export default AboutUs;

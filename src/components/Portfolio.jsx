@@ -17,83 +17,97 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Project Title 1",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
+      title: "Microsoft Azure DevOps",
+      projectInfo:"DevOps as a key framework in the development of scalable projects. Analysis, integration and development of key concepts of a DevOps architecture. Automation of production deployments to generate value in the organization in less time.",
+      client: "Smart Data",
+      technologies: "Cloud Services",
+      date: "September 06, 2023",
       socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:yadir.sve@gmail.com",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/certification/devops.png",
+      categories: [filters.CLOUD],
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/dev.png",
+      ],
+    },
+    {
+      title: "Microsoft Azure Data Engineering",
+      projectInfo:
+        "Fundamentals of Microsoft Azure cloud computing services, introduction to Microsoft Azure, data storage and processing, real-time analysis, application deployment and development of an integrative project with everything learned.",
+        client: "Smart Data",
+        technologies: "Cloud Services",
+        date: "August 23, 2023",
+        socialLinks: {
+          mail: "mailto:yadir.sve@gmail.com",
+        },
+        thumbImage: "images/certification/idazure.png",
+        sliderImages: [
+          "images/projects/diazure.png",
+          "images/projects/diazure2.png",
+        ],
+        categories: [filters.CLOUD],
+    },
+    {
+      title: "Databricks Lakehouse Fundamentals",
+      projectInfo:
+        "Databricks is a platform that brings together data, analytics and artificial intelligence in a unified solution. It provides various services such as data lake, data engineering, data science, machine learning, and SQL analysis. Databricks is based on Apache Spark, an open source framework for data processing and distributed computing. Databricks also supports other open source technologies, such as Delta Lake, MLflow, and Koalas.",
+      client: "Databricks Academy",
+      technologies: "Cloud Services",
+      date: "July 28, 2023",
+      socialLinks: {
+        mail: "mailto:yadir.sve@gmail.com",
+      },
+      thumbImage: "images/certification/lakehouse.png",
+      sliderImages: [
+        "images/projects/databricks.png",
+        "images/projects/databricks2.png",
       ],
       categories: [filters.CLOUD],
     },
     {
-      title: "Project Title 2",
+      title: "Scrum Fundamentals Certified",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
+        "4th edition of the SBOK®",
+      client: "Scrum Study",
+      technologies: "Agile",
+      date: "Jan 11, 2024",
       socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:yadir.sve@gmail.com",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/certification/ScrumFundamentals.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/scrum.png",
       ],
       categories: [filters.AGILE],
+      url: {
+        name: "Badge",
+        link: "https://www.scrumstudy.com/certification/verify?type=SFC&number=1012751",
+      }
     },
     {
-      title: "Project Title 3",
+      title: "Python Fundamentals",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
+        "In this course, students acquire the essential skills for solving well-defined problems of low to medium complexity, through the Python programming language, in order to design and code possible solutions. You will also learn about the installation and configuration of the development environment, the syntax of the language, programming structures, and basic reading and storage of information.",
+      client: "Cenfotec",
+      technologies: "Programming language",
+      date: "July 31, 2023",
       socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "mailto:yadir.sve@gmail.com",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/certification/python.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/air.png",
+        "images/projects/etl.jpg",
+        "images/projects/maxresdefault.jpg",
       ],
       categories: [filters.SCRIPT],
+      url: {
+        name: "Badge",
+        link: "https://www.credly.com/badges/727a79ab-8919-4bb9-a2a3-0b241ed5dfe1/public_url",
+      }
     },
+
   ];
 
 
@@ -136,7 +150,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
               }
             >
-              Portfolio
+              Education
             </h2>
             <p
               className={
@@ -145,7 +159,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               }
             >
               {" "}
-              My Work
+              Certifications
               <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
             </p>
           </div>

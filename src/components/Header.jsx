@@ -126,7 +126,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                     setIsNavModalClose(true);
                   }}
                 >
-                  Portfolio
+                  Certifications
                 </Link>
               </li>
               <li className="nav-item">

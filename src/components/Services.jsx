@@ -5,22 +5,22 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "Software developer",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Programming languages (e.g., Java, Python, C++, Dart, C#). Software development tools and technologies (e.g., Git, Docker, Jenkins). Frameworks and libraries (e.g., React, Angular, .NET). Database technologies (e.g., SQL, MongoDB). Soft skills (e.g., problem-solving, teamwork, communication)",
       icon: "fas fa-palette",
     },
     {
       name: "Data Engineering",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-desktop",
     },
     {
       name: "Data Analyst",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Data mining, report automation with Python and R, API development, sentiment analysis in audios and text through feature extraction with Python, creation of dashboards in power bi services and tableau, statistical analysis, data models, sales forecasting , RFM model, customer segmentation.",
       icon: "fas fa-pencil-ruler",
     },
     {
       name: "Data and mathematical models",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "",
       icon: "fas fa-paint-brush",
     },
 

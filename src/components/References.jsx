@@ -6,30 +6,23 @@ const References = ({ classicHeader, darkTheme }) => {
   const reviews = [
     {
       name: "John Alfaro Solano",
-      position: "Process Analytics at 3M, Costa Rica",
-      src: "images/testimonial/client-sm-3.jpg",
+      position: "Business Analyst at GFT, Costa Rica",
+      src: "images/testimonial/john.jpg",
       desc: "Yadir Vega is an excellent profesional who posees a featured technical skills, and also has the ability to adapt to the company needs, combining this with his dedication to stay updated with the technology, he is one of the best professionals that I highly recommend. ",
       rating: 5,
     },
     {
       name: "Katherine Fernádez Quirós",
       position: "Data Analyst at Grupo Purdy, Costa Rica",
-      src: "images/testimonial/client-sm-1.jpg",
+      src: "images/testimonial/kat.jpg",
       desc: "He is a proactive person, with a great capacity for innovation and computer programming, which makes it easier for him to solve technological problems that arise.",
       rating: 5,
     },
     {
       name: "Luis Carlos Quesada Rodríguez",
       position: "Software Developer Sr Analyst at Accenture, Costa Rica",
-      src: "images/testimonial/client-sm-2.jpg",
-      desc: "I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.",
-      rating: 5,
-    },
-    {
-      name: "Chris Tom",
-      position: "User from UK",
-      src: "images/testimonial/client-sm-4.jpg",
-      desc: "I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.",
+      src: "images/testimonial/luiscar.jpg",
+      desc: "",
       rating: 5,
     },
   ];

@@ -5,12 +5,12 @@ const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
       yearRange: "2018",
-      title: "Computer Science",
+      title: "Bachelor's Degree in Computer Sciences",
       place: "Tecnológico de Costa Rica",
-      desc: "Incomplete professional degree.",
+      desc: "This discipline's emphasis is to achieve maximum performance of information technology in commercial, administrative and industrial activities. As part of the technological advance that currently exists in the world, Costa Rican companies have shown great capabilities to develop high-quality software and systems; Therefore, there is a potential to strengthen the software export business sector.",
     },
     {
-      yearRange: "2016 - 2024",
+      yearRange: "2016",
       title: "Bachelor's Degree in Mathematics",
       place: "Tecnológico de Costa Rica",
       desc: "It's a career that unites mathematics and computing. Topics such as geometry, algebra, analysis and statistics are developed.",
@@ -23,7 +23,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "nov. 2022 - actually",
       title: "Data Engineer",
       place: "Coopelesca R.L",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Data Engineering",
     },
 
     {

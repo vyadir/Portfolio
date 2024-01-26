@@ -21,7 +21,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   <Typewriter
                     options={{
                       strings: [
-                        "My name is Yadir Vega.",
+                        "My name is Yadir",
                         "I'm a Software & Data Engineer.",                
                       ],
                       autoStart: true,

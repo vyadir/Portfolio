@@ -26,11 +26,14 @@ jobs:
         username: ${{ secrets.AzureAppService_ContainerUsername_abf8d165655b49b891cb08034497e7e0 }}
         password: ${{ secrets.AzureAppService_ContainerPassword_cf34dd6889d149a0bf5b2f70b155b32f }}
 
+    - name: Convertir nombre de usuario a minúsculas
+      run: echo "USERNAME_LOWER=$(echo ${{ secrets.AzureAppService_ContainerUsername_abf8d165655b49b891cb08034497e7e0 }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: crpersonalportfolio.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_abf8d165655b49b891cb08034497e7e0 }}/yvega-portfolio:${{ github.sha }}
+        tags: crpersonalportfolio.azurecr.io/${{ env.USERNAME_LOWER }}/yvega-portfolio:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:

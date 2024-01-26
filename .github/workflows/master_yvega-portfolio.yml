@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: portfoliocr.azurecr.io/yadirvega-portfolio:${{ github.sha }}
+        tags: portfoliocr.azurecr.io/yadirvega-portfolio:latest
         file: ./Dockerfile
 
   deploy:

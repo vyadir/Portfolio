@@ -62,4 +62,5 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
     </section>
   );
 };
+
 export default Home;

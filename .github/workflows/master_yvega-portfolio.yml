@@ -48,4 +48,4 @@ jobs:
         app-name: 'yvega-portfolio'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_63edfa4f10754099980858ba956a584c }}
-        images: 'portfoliocr.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_05ff1fde07ef4f6893607a139b71dad4 }}/yadirvega-portfolio:${{ github.sha }}'
+        images: 'portfoliocr.azurecr.io/yadirvega-portfolio:${{ github.sha }}'

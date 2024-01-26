@@ -17,7 +17,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "x Azure DevOps",
+      title: "Microsoft Azure DevOps",
       projectInfo:"DevOps as a key framework in the development of scalable projects. Analysis, integration and development of key concepts of a DevOps architecture. Automation of production deployments to generate value in the organization in less time.",
       client: "Smart Data",
       technologies: "Cloud Services",

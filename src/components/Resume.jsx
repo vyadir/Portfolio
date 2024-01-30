@@ -43,7 +43,6 @@ const Resume = ({ classicHeader, darkTheme }) => {
   const skills = [
     {
       name: "Terraform",
-      percent: 100,
     },
     {
       name: "Azure Cloud Services",
@@ -222,22 +221,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   }
                 >
                   {skill.name}{" "}
-                  <span className="float-end">{skill.percent}%</span>
                 </p>
-                <div
-                  className={
-                    "progress progress-sm mb-4 " + (darkTheme ? "bg-dark" : "")
-                  }
-                >
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: skill.percent + "%" }}
-                    aria-valuenow={skill.percent}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                  />
-                </div>
               </div>
             ))}
         </div>

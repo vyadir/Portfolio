@@ -1,15 +1,27 @@
-FROM node:alpine
+FROM node:16.5.0-alpine as builder
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY package*.json .
+ENV PATH usr/src/app/node_modules/.bin:$PATH
 
-RUN npm install
+COPY package.json .
+
+COPY package-lock.json .
+
+RUN npm ci
 
 COPY . .
 
 RUN npm run build
 
-EXPOSE 3000
+FROM nginx:1.19.4-alpine
 
-CMD ["npm","start"]
+RUN rm -rf /etc/nginx/conf.d
+
+COPY conf /etc/nginx
+
+COPY --from=builder /usr/src/app/build /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

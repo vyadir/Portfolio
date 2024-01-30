@@ -22,7 +22,8 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     options={{
                       strings: [
                         "My name is Yadir Vega.",
-                        "I'm a Software & Data Engineer.",                
+                        "I'm a Software & Data Engineer.",  
+                        "This portfolio is currently under development.",              
                       ],
                       autoStart: true,
                       loop: true,

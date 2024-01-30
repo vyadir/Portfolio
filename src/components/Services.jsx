@@ -10,7 +10,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Data Engineering",
-      desc: "",
+      desc: "Deployments of software and data solutions with docker and CI/CD: Github actions, Ansible, high availability with load balancing. Creation of infrastructure with Terraform, creation and maintenance of modern Data Warehouses, strong skills in SQL: developments that integrate relational, non-relational and time series databases. In general, I work and develop modern data engineering with technologies that are highly in demand in the software and data market, mainly in the AWS and Azure ecosystems, however I do not exclude working on GCP.",
       icon: "fas fa-desktop",
     },
     {
@@ -20,7 +20,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Data and mathematical models",
-      desc: "",
+      desc: "I am a professional with solid training and experience in mathematics and advanced statistics. I have a deep understanding of mathematical principles and theories, which allows me to address complex problems and develop innovative solutions. My focus on advanced statistics has equipped me with essential skills in data analysis, allowing me to extract valuable insights and make accurate predictions from large data sets. I have experience creating advanced statistical and mathematical models, which I apply in various contexts to optimize processes, inform strategic decisions, and contribute to the advancement of knowledge in my field. My ability to integrate theory and practice makes me a valuable resource for any project that requires a solid foundation in mathematics and statistics.",
       icon: "fas fa-paint-brush",
     },
 

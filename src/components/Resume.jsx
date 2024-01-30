@@ -23,7 +23,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "nov. 2022 - actually",
       title: "Data Engineer",
       place: "Coopelesca R.L",
-      desc: "Data Engineering",
+      desc: "Modern Data Engineering: Relational, non-relationals and time series databases. Creation of complex pipelines. Data ingestion and data lake management. Infrastructure development as code. API development. Deployments of containerized projects, high availability with load balancing, implementation of CI/CD in projects, work with DevOps/Scrum, version control and collaborative work, hybrid connections, logic apps, PBI services, Airflow, data streaming among others modern data engineering concepts.",
     },
 
     {

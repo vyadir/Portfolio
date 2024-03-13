@@ -22,7 +22,7 @@ const References = ({ classicHeader, darkTheme }) => {
       name: "Luis Carlos Quesada Rodríguez",
       position: "Software Developer Sr Analyst at Accenture, Costa Rica",
       src: "images/testimonial/luiscar.jpg",
-      desc: "",
+      desc: "Yadir and I worked closely together for nearly a year, and I must say, it was an enriching experience. His role as a data engineer required him to be not just proficient but also innovative, and he excelled at both. What really stood out about Yadir was his relentless pursuit of knowledge and his eagerness to keep up with the latest in technology. He was always diving into new courses or certifications, constantly pushing the boundaries of what he knew. Always improving, always experimenting on something new that we could integrate on our data systems. I have no doubt that Yadir is an excellent data engineer, and I am sure he will continue to excel in any of his future endeavours.",
       rating: 5,
     },
   ];

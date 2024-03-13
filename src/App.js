@@ -5,6 +5,7 @@ import AboutUs from "./components/About";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
 import References from "./components/References";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -89,6 +90,10 @@ function App() {
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></Portfolio>
+            <Experience
+              classicHeader={classicHeader}
+              darkTheme={darkTheme}
+            ></Experience>
             <References
               classicHeader={classicHeader}
               darkTheme={darkTheme}

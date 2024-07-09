@@ -4,6 +4,12 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
+      yearRange: "2024-2025",
+      title: "Expert Program in Artificial Intelligence",
+      place: "PROMiDAT",
+      desc: "The Artificial Intelligence with Python Expert Program aims to train professionals capable of taking advantage of the data of their own organization or company in order to make decisions based on their analysis processes.",
+    },
+    {
       yearRange: "2018",
       title: "Bachelor's Degree in Computer Sciences",
       place: "Tecnológico de Costa Rica",

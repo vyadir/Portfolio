@@ -5,7 +5,7 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "Software developer",
-      desc: "Programming languages (e.g., Java, Python, C++, Dart, C#). Software development tools and technologies (e.g., Git, Docker, Jenkins). Frameworks and libraries (e.g., React, Angular, .NET). Database technologies (e.g., SQL, MongoDB). Soft skills (e.g., problem-solving, teamwork, communication)",
+      desc: "Proficient in multiple programming languages, including Java, Python, C++, Dart, and C#. Experienced with essential software development tools and technologies, such as Git, Docker, and Jenkins. Skilled in using frameworks and libraries like React, Angular, and .NET for building robust applications. Strong expertise in database technologies, including SQL and MongoDB. Well-versed in popular design patterns, software engineering techniques, and testing methodologies to ensure high-quality, maintainable code. Additionally, possess strong soft skills in problem-solving, teamwork, and communication, which contribute to successful project outcomes.",
       icon: "fas fa-palette",
     },
     {

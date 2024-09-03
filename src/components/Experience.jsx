@@ -5,7 +5,7 @@ const Experience = ({ classicHeader, darkTheme }) => {
   const Experience = [
     {
       name: "Data Engineering",
-      desc: "Data pipelines (Azure Data factory, Azure Data Lake Services, Azure SQL and Azure Synapse), Data models using a star or snowflake architecture, Document and automate common tasks, ETL, Documents, supports, and automates the cloud data warehouse. Build ELT or ETL pipelines,  Troubleshoot and configuring data pipelines, Cloud data warehouses. IaaC with Terraform (Azure or AWS experience).",
+      desc: "Experienced in data ingestion processes, both cloud-based and on-premise. Proficient in data cleaning, preprocessing, and transformation to ensure high data quality. Skilled in data analysis and visualization using tools like Microsoft Fabric and BI models. Strong expertise in SQL and Excel, complemented by analytical thinking, critical problem-solving skills, and a solid understanding of business intelligence. Capable of delivering insights that drive strategic decision-making and optimize data-driven processes.",
       icon: "fas fa-desktop",
     },
     {

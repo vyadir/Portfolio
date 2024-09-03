@@ -36,8 +36,12 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-primary">Yadir Vega Espinoza,</span> a Data Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I'm a results-oriented data engineer and agile development with strong experience 
-            in implementing resilient data solutions within the Azure and AWS ecosystems.
+            “I'm a results-driven data engineer with extensive experience in designing and implementing 
+            robust data solutions within Azure and AWS environments. My expertise spans across software 
+            engineering and data management, where I excel at building scalable, resilient systems that 
+            drive business success. With a strong foundation in agile development practices, I am dedicated 
+            to optimizing data workflows and enhancing software architecture to meet the evolving needs of 
+            the industry.”
             </p>
           </div>
           {/* About me content end */}

@@ -107,6 +107,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         link: "https://www.credly.com/badges/727a79ab-8919-4bb9-a2a3-0b241ed5dfe1/public_url",
       }
     },
+    {
+      title: "Programación Orientada a Objetos Python",
+      projectInfo:
+        "",
+      client: "PROMiDAT: Programa Iberoamericano de Formación en Minería de Datos",
+      technologies: "Programming language",
+      date: "August 30, 2024",
+      socialLinks: {
+        mail: "mailto:yadir.sve@gmail.com",
+      },
+      thumbImage: "images/certification/POO.jpg",
+      sliderImages: [
+        "images/projects/air.png",
+        "images/projects/etl.jpg",
+        "images/projects/maxresdefault.jpg",
+      ],
+      categories: [filters.SCRIPT],
+      url: {
+        name: "Badge",
+        link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=387",
+      }
+    },
 
   ];
 

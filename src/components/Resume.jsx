@@ -109,7 +109,16 @@ const Resume = ({ classicHeader, darkTheme }) => {
     {
       name: "Snowflake cloud",
       percent: 65,
+    },
+    {
+      name: "Maven & Gradle",
+      percent: 100,
+    },
+    {
+      name: "Databricks",
+      percent: 100,
     }
+     
   ];
 
   return (

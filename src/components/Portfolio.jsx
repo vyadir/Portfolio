@@ -117,7 +117,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       socialLinks: {
         mail: "mailto:yadir.sve@gmail.com",
       },
-      thumbImage: "images/certification/poo.png",
+      thumbImage: "images/certification/poo.pdf",
       sliderImages: [
         "images/projects/air.png",
         "images/projects/etl.jpg",

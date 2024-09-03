@@ -36,6 +36,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-primary">Yadir Vega Espinoza,</span> a Data Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
+
+            I work as a Data Engineer specializing in Big Data, combining my background in mathematics 
+            and software development to create solutions that transform massive datasets into actionable 
+            insights. My ability to approach problems from a mathematical perspective allows me to develop 
+            sophisticated algorithms and models, while my software development expertise ensures these 
+            solutions are practical, scalable, and efficient. This powerful combination enables me to tackle 
+            complex challenges in the world of Big Data and technology.
+            
             I'm a results-driven data engineer with extensive experience in designing and implementing 
             robust data solutions within Azure and AWS environments. My expertise spans across software 
             engineering and data management, where I excel at building scalable, resilient systems that 

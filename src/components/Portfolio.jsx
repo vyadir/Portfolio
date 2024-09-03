@@ -110,14 +110,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Programación Orientada a Objetos Python",
       projectInfo:
-        "",
+        "Proficient in Object-Oriented Programming (OOP) in Python, with a deep understanding of core concepts such as classes, objects, inheritance, polymorphism, and encapsulation. Skilled in designing and implementing reusable and maintainable code structures that follow best practices. Experience in developing complex systems using OOP principles to enhance code organization, scalability, and efficiency. Capable of leveraging Python’s powerful libraries and frameworks to build robust software solutions.",
       client: "PROMiDAT: Programa Iberoamericano de Formación en Minería de Datos",
       technologies: "Programming language",
       date: "August 30, 2024",
       socialLinks: {
         mail: "mailto:yadir.sve@gmail.com",
       },
-      thumbImage: "images/certification/POO.jpg",
+      thumbImage: "images/certification/poo.png",
       sliderImages: [
         "images/projects/air.png",
         "images/projects/etl.jpg",

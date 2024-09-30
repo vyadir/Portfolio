@@ -113,7 +113,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "Proficient in Object-Oriented Programming (OOP) in Python, with a deep understanding of core concepts such as classes, objects, inheritance, polymorphism, and encapsulation. Skilled in designing and implementing reusable and maintainable code structures that follow best practices. Experience in developing complex systems using OOP principles to enhance code organization, scalability, and efficiency. Capable of leveraging Python’s powerful libraries and frameworks to build robust software solutions.",
       client: "PROMiDAT: Programa Iberoamericano de Formación en Minería de Datos",
       technologies: "Programming language",
-      date: "August 30, 2024",
+      date: "September 30, 2024",
       socialLinks: {
         mail: "mailto:yadir.sve@gmail.com",
       },
@@ -127,6 +127,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       url: {
         name: "Badge",
         link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=387",
+      }
+    },
+    {
+      title: "Métodos NO Supervisados con Python",
+      projectInfo:
+        "The importance of this certification lies in the ability to apply unsupervised learning tools to transform raw data into valuable insights, improving operational efficiency, business performance, and optimizing the customer experience. The training received strengthens an advanced technical profile, equipped to develop AI solutions that directly impact organizational strategy and competitiveness.",
+      client: "PROMiDAT: Programa Iberoamericano de Formación en Minería de Datos",
+      technologies: "Programming language",
+      date: "August 30, 2024",
+      socialLinks: {
+        mail: "mailto:yadir.sve@gmail.com",
+      },
+      thumbImage: "images/certification/Unsupervised-Methods.pdf",
+      sliderImages: [
+        "images/projects/air.png",
+        "images/projects/etl.jpg",
+        "images/projects/maxresdefault.jpg",
+      ],
+      categories: [filters.SCRIPT],
+      url: {
+        name: "Badge",
+        link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=397",
       }
     },
 

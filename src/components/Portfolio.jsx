@@ -151,6 +151,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=397",
       }
     },
+    {
+      title: "Métodos Supervisados con Python",
+      projectInfo:
+        "The importance of this certification lies in the ability to apply supervised learning tools to transform raw data into valuable insights, improving operational efficiency, business performance, and optimizing the customer experience. The training received strengthens an advanced technical profile, equipped to develop AI solutions that directly impact organizational strategy and competitiveness.",
+      client: "PROMiDAT: Programa Iberoamericano de Formación en Minería de Datos",
+      technologies: "Programming language",
+      date: "November 04, 2024",
+      socialLinks: {
+        mail: "mailto:yadir.sve@gmail.com",
+      },
+      thumbImage: "images/certification/supervised-Methods.pdf",
+      sliderImages: [
+        "images/projects/air.png",
+        "images/projects/etl.jpg",
+        "images/projects/maxresdefault.jpg",
+      ],
+      categories: [filters.SCRIPT],
+      url: {
+        name: "Badge",
+        link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=397",
+      }
+    },
 
   ];
 

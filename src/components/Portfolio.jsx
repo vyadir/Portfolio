@@ -173,6 +173,28 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=400",
       }
     },
+    {
+      title: "Visualización de datos en Python",
+      projectInfo:
+        "This course provided me with comprehensive skills in data visualization, including the application of fundamental principles such as color theory and the grammar of graphics. I gained proficiency in creating both static and interactive visualizations using libraries like Matplotlib, Seaborn, and Plotly. Additionally, I developed the ability to produce dynamic, professional reports using Jupyter Notebooks and design interactive applications for data visualization with Shiny for Python.",
+      client: "PROMiDAT: Programa Iberoamericano de Formación en Minería de Datos",
+      technologies: "Programming language",
+      date: "December 03, 2024",
+      socialLinks: {
+        mail: "mailto:yadir.sve@gmail.com",
+      },
+      thumbImage: "images/certification/dataVisualization.pdf",
+      sliderImages: [
+        "images/projects/air.png",
+        "images/projects/etl.jpg",
+        "images/projects/maxresdefault.jpg",
+      ],
+      categories: [filters.SCRIPT],
+      url: {
+        name: "Badge",
+        link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=400",
+      }
+    },
 
   ];
 

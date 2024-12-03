@@ -192,7 +192,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.SCRIPT],
       url: {
         name: "Badge",
-        link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=400",
+        link: "https://promidat.education/blocks/notas/reportes/qrtitulo.php?estudiante=2208&curso=405",
       }
     },
 

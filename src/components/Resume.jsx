@@ -10,13 +10,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "The Artificial Intelligence with Python Expert Program aims to train professionals capable of taking advantage of the data of their own organization or company in order to make decisions based on their analysis processes.",
     },
     {
-      yearRange: "2018",
-      title: "Bachelor's Degree in Computer Sciences",
+      yearRange: "2024-2029",
+      title: "Bachelor’s Degree in Computer Engineering",
       place: "Tecnológico de Costa Rica",
-      desc: "This discipline's emphasis is to achieve maximum performance of information technology in commercial, administrative and industrial activities. As part of the technological advance that currently exists in the world, Costa Rican companies have shown great capabilities to develop high-quality software and systems; Therefore, there is a potential to strengthen the software export business sector.",
+      desc: "Computer Engineering (C.E.) combines the sciences and technologies for designing, building, implementing, and maintaining hardware and software components of computer systems, traditionally seen as a fusion of Computer Science and Electronic Engineering, and plays a vital role in developing computer systems and computer-controlled equipment.",
     },
     {
-      yearRange: "2016",
+      yearRange: "2020-2024",
       title: "Bachelor's Degree in Mathematics",
       place: "Tecnológico de Costa Rica",
       desc: "It's a career that unites mathematics and computing. Topics such as geometry, algebra, analysis and statistics are developed.",

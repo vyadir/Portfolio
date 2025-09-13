@@ -16,7 +16,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "Computer Engineering (C.E.) combines the sciences and technologies for designing, building, implementing, and maintaining hardware and software components of computer systems, traditionally seen as a fusion of Computer Science and Electronic Engineering, and plays a vital role in developing computer systems and computer-controlled equipment.",
     },
     {
-      yearRange: "2020-2024",
+      yearRange: "2019-2022",
       title: "Bachelor's Degree in Mathematics",
       place: "Tecnológico de Costa Rica",
       desc: "It's a career that unites mathematics and computing. Topics such as geometry, algebra, analysis and statistics are developed.",
